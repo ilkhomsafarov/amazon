@@ -1,4 +1,4 @@
-.last__footer{
+.lastFooter{
     background-color: #131A22;
     width: 100%;
     padding-top: 20px;
@@ -7,13 +7,13 @@
     width: 65%;
     margin: 0 auto;
 }
-.lists__wrapper{
+.listsWrapper{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.list_one{
+.listOne{
     width: 100px;
 }
 .link{
@@ -37,7 +37,7 @@
 .link:hover{
     text-decoration: underline;
 }
-.made__info__wrpper{
+.madeInfoWrpper{
     width: 35%;
     margin: 0 auto;
 }
@@ -46,7 +46,7 @@
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.us__link{
+.usLink{
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -57,7 +57,7 @@
     text-align: center; 
     color: #DDDDDD;
 }
-.us__link:hover{
+.usLink:hover{
     text-decoration: underline;
 }
 .info{
@@ -78,7 +78,7 @@
     .container{
         width: 90%;
     }
-    .us__link{
+    .usLink{
         font-size: 10px;
     }
 }
@@ -86,7 +86,7 @@
     .link{
         display: none;
     }
-    .made__info__wrpper{
+    .madeInfoWrpper{
         width: 100%;
         
     }

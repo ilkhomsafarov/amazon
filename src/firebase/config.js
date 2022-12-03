@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDlNpBOznlEOzZsP9kt7dOOZryWvS0y2n8",
-  authDomain: "fir-d2c56.firebaseapp.com",
-  projectId: "fir-d2c56",
-  storageBucket: "fir-d2c56.appspot.com",
-  messagingSenderId: "527134336908",
-  appId: "1:527134336908:web:976448ac0025a8236e58a9",
-  measurementId: "G-0D5YCM1RW6"
+  apiKey: "AIzaSyD1tFZfg68cs6fQM88pFoWHDkNg_USdb_U",
+  authDomain: "fir-789dc.firebaseapp.com",
+  projectId: "fir-789dc",
+  storageBucket: "fir-789dc.appspot.com",
+  messagingSenderId: "133611676466",
+  appId: "1:133611676466:web:f1d1e04271f38c4d7b6d2b",
+  measurementId: "G-F95861BDKH"
 };
 
 const backend = firebase.initializeApp(firebaseConfig);

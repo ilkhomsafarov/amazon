@@ -15,7 +15,7 @@ const MiniHeader = ({setIsSidebarActive}) => {
   }
   return (
     <div className={c.miniHeader}>
-      <button className={c.AllBtn} onClick={() => {setIsSidebarActive(true)}}><AiOutlineMenu/> {t("sidebar_open")}</button>
+      <button className={c.AllBtn} onClick={() => {setIsSidebarActive(true)}}><AiOutlineMenu/> {t("sidebar_name")}</button>
       <ul className={c.list}>
         <li>{t("Deals")}</li>
         <li>{t("Service")}</li>

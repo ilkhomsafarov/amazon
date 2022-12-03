@@ -1,12 +1,11 @@
 {
-  "delivery_label": "Доставка (к)",
+  "delivery": "Доставка (к)",
   "country" : "Узбекистан",
-  "sidebar_open" :"Все",
-  "sidebar__title_u": "Привет",
-  "sidebar__title": "Здравствуйте, войдите",
-  "Devices" : "Цифровой контент и устройства",
-  "Department" : "Магазин по отделам",
-  "main_menu" : "ГЛАВНОЕ МЕНЮ",
+  "sidebar_name" :"Все",
+  "greet": "Здравствуйте, войдите",
+  "Digital Content & Devices" : "Цифровой контент и устройства",
+  "Shop By Department" : "Магазин по отделам",
+  "main menu" : "ГЛАВНОЕ МЕНЮ",
   "Deals" : "предложения",
   "Service": "Обслуживание клиентов",
   "Registry" : "Реестр",
@@ -21,6 +20,6 @@
   "Create  account":"Зарегистрироваться",
   "Back to top":"Наверх",
   "Log in":"Авторизоваться",
-  "no such account found":"такой аккаунт не найден"
+  "no such account found":"Aккаунт не найден"
 
 }

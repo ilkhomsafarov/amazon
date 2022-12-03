@@ -1,5 +1,4 @@
 import logo from '../../assets/images/logo.png';
-import signUpE from '../../assets/images/signup-enable.svg'
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FiSearch } from "react-icons/fi";
 import "./Header.css";
@@ -34,7 +33,7 @@ function Header({setIsNavbarSearchActive}) {
       <div className="headerDeliveryAddress">
         <HiOutlineLocationMarker className="addressIcon" />
         <div className="deliveryLocation">
-          <p>{t("delivery_label")}</p>
+          <p>{t("delivery")}</p>
           <b>{t("country")}</b>
         </div>
       </div>
@@ -64,12 +63,12 @@ function Header({setIsNavbarSearchActive}) {
       <div className='btnsWrapper'>
       <button className="signUpBtn">
         <Link to="/signup" className="signupLink">
-         {t("register")} <img src={signUpE} alt="" />
+         {t("register")} 
         </Link>
       </button>
       <button className="signUpBtn more">
         <Link to="/login" className="signupLink">
-        {t("Log in")} <img src={signUpE} alt="" />
+        {t("Log in")} 
         </Link>
       </button>
       </div>

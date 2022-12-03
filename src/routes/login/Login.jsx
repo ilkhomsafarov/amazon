@@ -29,7 +29,6 @@ const Login = () => {
     auth.signInWithPopup(provider)
       .then(response => {
         if (response) {
-          localStorage.setItem("user", response.additionalUserInfo.profile.given_name)
           history.push("/")
         }
       })

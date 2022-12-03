@@ -1,12 +1,11 @@
 {
-  "delivery_label": "Delivery to",
+  "delivery": "Delivery to",
   "country" : "Uzbekistan",
-  "sidebar_open" : "All",
-  "sidebar__title_u": "Hello",
-  "sidebar__title": "Hello",
-  "Devices" : "Digital Content & Devices",
-  "Department": "Shop By Department",
-  "main_menu" : "MAIN MENU",
+  "sidebar_name" : "All",
+  "greet": "Hello, sign in",
+  "Digital Content & Devices" : "Digital Content & Devices",
+  "Shop By Department": "Shop By Department",
+  "main menu" : "MAIN MENU",
   "Deals": "Today's Deals",
   "Service" : "Customer Service",
   "Registry" : "Registry",
@@ -21,6 +20,6 @@
   "Create  account":"Create  account",
   "Back to top":"Back to top",
   "Log in":"Log in",
-  "no such account found":"no such account found"
+  "no such account found":"Account not found"
 
 }  

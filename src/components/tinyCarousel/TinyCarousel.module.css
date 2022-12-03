@@ -35,13 +35,13 @@
 .leftBtn, .rightBtn{
     width: 60px;
     height: 100px;
-    background-color:#fff;
+    background-color:transparent;
     border: none;
     font-size: 30px;
     position: absolute;
     z-index: 2;
     cursor: pointer;
-    color: #6C6C6C;
+    color: rgb(71, 70, 70);
     font-weight: 900;
 }
 
@@ -59,8 +59,7 @@
 .rightBtn:focus{
     border-radius: 3px 0 0 3px;
     padding-left: 5px;
-    box-shadow: 0px 0px 5px #007185;
-    color: #007185;
+    border:2px solid rgb(122, 118, 118);
 }
 @media only screen and (max-width:1450px){
     .littleCarusel{

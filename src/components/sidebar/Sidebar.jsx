@@ -29,7 +29,7 @@ const Sidebar = ({isSidebarActive, setIsSidebarActive}) => {
       <div className="title">
         <HiUserCircle className='user'/> 
         <p>
-          {t("sidebar__title")}
+          {t("greet")}
       </p>
       </div>
     <FiX className='icon__exit' onClick={() => {setIsSidebarActive(false)}}/>
@@ -37,7 +37,7 @@ const Sidebar = ({isSidebarActive, setIsSidebarActive}) => {
       <div className="sidebar__item_one">
         <div className="item__title">
           <p>
-            {t("Devices")}
+            {t("Digital Content & Devices")}
           </p>
         </div>
         <div className="sidebar__lists">
@@ -85,7 +85,7 @@ const Sidebar = ({isSidebarActive, setIsSidebarActive}) => {
       <div className="sidebar__item_two">
         <div className="item__title">
           <p>
-          {t("Department")}
+          {t("Shop By Department")}
           </p>
         </div>
         <div className="sidebar__lists">
@@ -145,7 +145,7 @@ const Sidebar = ({isSidebarActive, setIsSidebarActive}) => {
                 }}>
                 <HiArrowLeft className="closeicon"/>
                 <p>
-                  {t("main_menu")}
+                  {t("main menu")}
                 </p>
               </div>
               <div className="sidebar__one__open__title">
@@ -294,7 +294,7 @@ const Sidebar = ({isSidebarActive, setIsSidebarActive}) => {
           }}>
           <HiArrowLeft className="closeicon"/>
           <p>
-          {t("main_menu")}
+          {t("main menu")}
           </p>
         </div>
         <div className="sidebar__one__open__title">
