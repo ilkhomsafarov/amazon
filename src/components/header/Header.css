@@ -1,0 +1,245 @@
+.mainHeader{
+  height: 60px;
+  background-color: var(--primary-dark-color);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  color: var(--primary-light-color);
+}
+
+.mainHeader > div{
+  padding: 0 10px;
+  height: 50px;
+  border-radius: var(--primary-border-radius);
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mainHeader > div:not("btns__wrapper"):hover{
+  border: 1px solid var(--primary-light-color);
+}
+.btnsWrapper{
+  display: flex;
+
+}
+
+
+.mainHeader :is(div):has(select), .main-header :is(div):has(select):hover{
+  border: none;
+  padding: 0;
+}
+
+.headerSearchWrapper{
+  display: flex;
+  height: 40px !important;
+  width: clamp(200px, 773px, 773px);
+  background-color: var(--primary-light-color);
+  align-items: center;
+  border-radius: 5px !important;
+  overflow: hidden;
+  margin-right: 20px;
+  box-shadow: 1px 1px 10px transparent;
+}
+
+.headerSearchWrapper :is(select, input, button){
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
+.headerSearchWrapper > input{
+  flex: 1;
+  text-indent: 10px;
+  font-size: 18px;
+}
+.searchInput:active .headerSearchWrapper{
+  box-shadow: 1px 1px 10px var(--primary-orange-color);
+}
+
+.headerSearchWrapper > select{
+  border-right: 1px solid #ababab;
+}
+
+.headerSearchWrapper > button{
+  background-color: var(--primary-orange-color);
+  color: #000;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.headerLogoWrapper{
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo{
+  height: 37px;
+  display: block;
+}
+
+.headerDeliveryAddress{
+  display: flex;
+  align-items: center;
+}
+
+.addressIcon{
+  font-size: 25px;
+}
+
+.headerDeliveryAddress p{
+  color: #ababab;
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+.changeLanguage{
+  width: 100px;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.select{
+  width:100px;
+  height:50px;
+  background: #141921;
+  color: #fff;
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  justify-content: end;
+  padding-left: 40px;
+}
+
+.option{
+  padding: 0;
+  background: #FEBD69;
+}
+.flag{
+  width: 25px;
+  z-index: 2;
+  position: absolute;
+  left: 5px;
+  background-color: red;
+}
+.option:hover{
+  background:#fff ;
+}
+.signUpBtn{
+  width: 121px;
+  height: 48px;
+  border-radius: 4px;
+  background: transparent;
+  margin-left: 20px;
+  border: 1px solid #fff;
+}
+.signupLink{
+  width: 121px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.signupLink img{
+  display: none;
+}
+
+
+.more{
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FEBD69;
+}
+@media only screen and (max-width:1051px){
+ 
+  .headerDeliveryAddress{
+    display: none;
+  }
+}
+@media only screen and (max-width:965px){
+  .signupLink{
+    font-size: 10px;
+  }
+  .signUpBtn{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 821px){
+  .mainHeader{
+    position: relative;
+  }
+  .headerSearchWrapper{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 90%;
+    left: 5%;
+    
+  }
+  .mainHeader{
+    background-color: #232E3E;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .changeLanguage{
+    box-shadow: none;
+  }
+}
+@media only screen and (max-width: 525px){
+  .changeLanguage{
+    width: 60px;
+  }
+  .flag{
+    width: 15px;
+  }
+  .select{
+    width: 60px;
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 450px){
+  .signUpBtn{
+    width: 75px;
+    margin-right: 0;
+  }
+  .mainHeader{
+    padding-left: 0;
+  }
+  .signupLink{
+    font-size: 9px;
+  }
+  .btnsWrapper{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .signUpBtn{
+  padding: 0;
+  display: none;
+  }
+  .headerLogo{
+    width: 50px;
+  }
+  .more{
+    display:flex;
+    width: 100%;
+  }
+  .searchInput{
+    width: 70%;
+  }
+  
+}
